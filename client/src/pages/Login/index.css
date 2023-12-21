@@ -1,0 +1,50 @@
+.form_container{
+  width: 35%;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  background: rgba(52, 87, 78, 0.25);
+  box-shadow: 0 0px 30px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
+  border-radius: 20px;
+}
+.btn{
+  border-radius: 25px;
+  background-color:rgba(39, 63, 57, 0.95);
+}
+.btn:hover{
+  border: 2px solid rgba(28, 49, 44, 0.58);
+  background-color: rgb(7, 32, 26);
+}
+
+.daftar:hover{
+    text-decoration: underline; /* Contoh: garis bawah saat dihover */
+    color: "#FFA323";
+
+}
+input{
+  height: 2.5rem;
+}
+
+@media screen and (max-width: 1000px){
+  .form_container{
+    width: 45%;
+  }
+  
+}
+
+@media screen and (max-width: 700px){
+  .form_container{
+    width: 65%;
+  }
+  
+}
+
+@media screen and (max-width: 400px){
+  .form_container{
+    width: 65%;
+    height: 65%;
+  }
+  
+}

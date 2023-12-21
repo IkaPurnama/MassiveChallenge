@@ -1,0 +1,37 @@
+.akun {
+  background-color: #EBECEC;
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 1050px;
+}
+
+.form-label {
+  color: #535353;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.underline-text {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 510px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.btn-akun {
+  background-color: #1D312C;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 63%;
+  box-shadow: 0px 5px 10px rgba(20, 30, 25, 1);
+}

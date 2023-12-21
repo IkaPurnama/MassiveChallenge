@@ -1,0 +1,13 @@
+.box{
+  background-color: #1d312c;
+  margin-left: none;
+}
+
+.nav-pills li a:hover {
+  color: #ffa323;
+
+}
+
+.dropdown-menu a:hover {
+  background-color:#ffa323 ;
+}
